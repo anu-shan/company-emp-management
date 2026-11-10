@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeopleHub | Employees</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">PeopleHub</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a class="active" href="employees.html">Employees</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-banner">
+            <h1>Meet Our Team</h1>
+            <p>Discover the talented people behind our success.</p>
+        </section>
+
+        <section class="section">
+            <input
+                type="search"
+                id="searchInput"
+                placeholder="Search by employee name or role..."
+                aria-label="Search employees"
+            >
+
+            <div class="employee-grid" id="employeeList">
+
+                <article class="employee-card">
+                    <div class="avatar">AK</div>
+                    <h3>Arun Kumar</h3>
+                    <p>Software Engineer</p>
+                    <span>Technology</span>
+                </article>
+
+                <article class="employee-card">
+                    <div class="avatar">PK</div>
+                    <h3>Priya Kumar</h3>
+                    <p>UI/UX Designer</p>
+                    <span>Design</span>
+                </article>
+
+                <article class="employee-card">
+                    <div class="avatar">RS</div>
+                    <h3>Rahul Sharma</h3>
+                    <p>DevOps Engineer</p>
+                    <span>Infrastructure</span>
+                </article>
+
+                <article class="employee-card">
+                    <div class="avatar">MJ</div>
+                    <h3>Meena Joseph</h3>
+                    <p>HR Manager</p>
+                    <span>Human Resources</span>
+                </article>
+
+                <article class="employee-card">
+                    <div class="avatar">VK</div>
+                    <h3>Vijay Kumar</h3>
+                    <p>QA Engineer</p>
+                    <span>Quality Assurance</span>
+                </article>
+
+                <article class="employee-card">
+                    <div class="avatar">SR</div>
+                    <h3>Sneha Raj</h3>
+                    <p>Project Manager</p>
+                    <span>Management</span>
+                </article>
+
+            </div>
+
+            <p id="noResults" class="no-results" hidden>
+                No employees found.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 PeopleHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
